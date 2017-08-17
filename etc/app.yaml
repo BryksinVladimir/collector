@@ -1,0 +1,29 @@
+mobilda:
+  - {account_id: 1, account_name: standard, hash: 2b24eb1a2286820356acf4cd5c507907, feed_id: 351, url: "http://s.marsfeeds.com"}
+  - {account_id: 2, account_name: premium, hash: 2b24eb1a2286820356acf4cd5c507907, feed_id: 382, url: "http://s.marsfeeds.com"}
+
+
+# Postgres settings
+postgres.addr: 148.251.82.246:5432
+postgres.user: developer
+postgres.password: RuYPamZOPZ
+postgres.databse: dev_vb_raw
+postgres.log_query: false
+
+
+# Collectors settings
+collector.offers_interval: every 30 minutes
+collector.offers_run_immediate: true
+
+# Log level
+log.level: info
+
+#server port
+host: 127.0.0.1:3009
+
+#error_mailer
+mailer.appname: Mobilda Collector
+mailer.host: localhost
+mailer.port: 25
+mailer.from: vb@mobioplatform.com
+mailer.to: vb@mobioinc.com

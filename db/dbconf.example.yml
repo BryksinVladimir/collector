@@ -1,0 +1,7 @@
+development:
+    driver: #postgres
+        open: #host=localhost user=production password=production dbname=prod-db sslmode=disable
+
+production:
+    driver: #postgres
+    open: #host=localhost user=production password=production dbname=prod-db sslmode=disable

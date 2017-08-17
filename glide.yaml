@@ -1,0 +1,36 @@
+package: mobilda
+import:
+- package: github.com/stretchr/testify
+  version: v1.1.4
+  subpackages:
+  - assert
+  - suite
+- package: github.com/cnf/structhash
+- package: github.com/beefsack/go-rate
+- package: github.com/dghubble/sling
+- package: github.com/patrickmn/go-cache
+- package: gopkg.in/pg.v5
+  version: ^5.2.9
+- package: bitbucket.org/mobio/go-cache
+  version: ^1.0.0
+  repo: git@bitbucket.org:mobio/go-cache.git
+- package: bitbucket.org/mobio/go-logger
+  version: ^1.1.0
+  repo: git@bitbucket.org:mobio/go-logger.git
+- package: bitbucket.org/mobio/go-dbmanager
+  version: ^1.0.0
+  repo: git@bitbucket.org:mobio/go-dbmanager.git
+- package: bitbucket.org/mobio/go-collector
+  version: ^1.0.0
+  repo: git@bitbucket.org:mobio/go-collector.git
+- package: bitbucket.org/mobio/go-config
+  version: ^2.0.0
+  repo: git@bitbucket.org:mobio/go-config.git
+- package: bitbucket.org/mobio/go-scheduler
+  version: ^1.0.1
+  repo: git@bitbucket.org:mobio/go-scheduler.git
+- package: bitbucket.org/mobio/go-ldbmanager
+  version: ^1.0.0
+  repo: git@bitbucket.org:mobio/go-ldbmanager.git
+- package: github.com/pressly/chi
+  version: ^2.0.0
